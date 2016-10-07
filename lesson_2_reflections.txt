@@ -4,3 +4,8 @@ Intializing a repository will make a normal directory a git repository. After wh
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is an area where you can add files from the working directory so as to commit it to a git repository. Staging area is basically used so as to decide on which changes do you want to commit in one commit. I differs from working directory as it contains only the changes that you want to commit and not all the changes. Repository contains all the commited files whereas staging area will only contain the files that you want to commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+Add only those changes to the staging area that you want to commit. By this, adding only those changes that you think are logically relevant to each other can be commited in one commit. Other changes can be staged later and commited using another commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help you in a situation where you want to experiment with some changes and you are not sure that will work. At that point of time you don't want to commit your chanes to the master branch and create a news branch where you can commit your changes without impacting the main code. 
